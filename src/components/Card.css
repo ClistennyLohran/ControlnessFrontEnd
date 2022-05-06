@@ -1,0 +1,134 @@
+@import '../css/colors.css';
+
+.cardGeneral {
+  position: relative;
+
+  width: 360px;
+  height: 160px;
+
+  margin: auto;
+
+  border-radius: 5px;
+
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Card Entrada */
+.cardContainerEntrada {
+  border-left: 5px solid var(--corEntrada);
+
+  background: var(--corFundoCard);
+}
+.textEntrada {
+  position: absolute;
+
+  margin-left: 15px;
+  margin-top: 10px;
+
+  font-size: 20px;
+
+  color: var(--corTexto);
+}
+.iconEntrada {
+  position: absolute;
+
+  margin-right: 15px;
+  margin-top: 10px;
+
+  font-size: 20px;
+
+  right: 0;
+
+  color: var(--corEntrada);
+}
+.valueEntrada {
+  position: absolute;
+
+  margin-left: 15px;
+  margin-top: 70px;
+
+  font-weight: 500;
+  color: var(--corTexto);
+}
+
+/* Card Saída */
+.cardContainerSaida {
+  border-left: 5px solid var(--corSaida);
+
+  background: var(--corFundoCard);
+}
+.textSaida {
+  position: absolute;
+
+  margin-left: 15px;
+  margin-top: 10px;
+
+  font-size: 20px;
+
+  color: var(--corTexto);
+}
+.iconSaida {
+  position: absolute;
+
+  margin-right: 15px;
+  margin-top: 10px;
+
+  font-size: 20px;
+
+  right: 0;
+
+  color: var(--corSaida);
+}
+.valueSaida {
+  position: absolute;
+
+  margin-left: 15px;
+  margin-top: 70px;
+
+  font-weight: 500;
+  color: var(--corTexto);
+}
+
+/* Card Total */
+.cardContainerTotal {
+  background-image: linear-gradient(to top right, var(--corPrimaria), var(--corSecundaria));
+}
+.textTotal {
+  position: absolute;
+
+  margin-left: 15px;
+  margin-top: 10px;
+
+  font-size: 20px;
+
+  color: var(--corFonte);
+}
+.iconTotal {
+  position: absolute;
+
+  margin-right: 15px;
+  margin-top: 10px;
+
+  right: 0;
+  font-size: 22px;
+
+  color: var(--corFonte);
+}
+.valueTotal {
+  position: absolute;
+
+  margin-left: 15px;
+  margin-top: 70px;
+
+  font-weight: 500;
+  color: var(--corFonte);
+}
+
+@media (max-width: 1180px) {
+  .cardContainerSaida {
+    margin-top: 20px;
+  }
+  .cardContainerTotal {
+    margin-top: 20px;
+  }
+}

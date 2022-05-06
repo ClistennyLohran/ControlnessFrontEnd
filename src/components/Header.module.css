@@ -1,0 +1,68 @@
+@import '../css/colors.css';
+
+.header {
+  position: relative;
+  display: flex;
+
+  align-items: center;
+
+  width: 100%;
+  height: 60px;
+
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(to top right, var(--corPrimaria), var(--corSecundaria));
+}
+.logo {
+  margin-left: 20px;
+}
+.title {
+  margin-left: 15px;
+
+  font-family: 'Bayon', sans-serif;
+
+  color: var(--corFonte);
+}
+.menu {
+  position: relative;
+
+  width: 100%;
+  height: 50px;
+
+  margin-bottom: 80px;
+
+  background: var(--corSecundaria);
+}
+.menuGroup {
+  position: absolute;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 60px;
+
+  top: 20px;
+}
+.item {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 55px;
+  height: 55px;
+
+  margin: 0 5px;
+
+  border-radius: 50%;
+  border: 4px solid var(--corSecundaria);
+
+  background: var(--corFundoCard);
+  color: var(--corSecundaria);
+
+  font-size: 26px;
+
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}

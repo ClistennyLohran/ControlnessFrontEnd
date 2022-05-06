@@ -1,0 +1,20 @@
+:root {
+  --corPrimaria: #DB00FF;
+  --corPrimariaHover: #e432ff;
+  --corSecundaria: #B000CD;
+  --corSecundariaHover: #d72cf1;
+
+  --corFundoCard: #FFFFFF;
+  --corFundoBlur: rgba(255, 255, 255, 0.3);
+  --corFundoInput: #EFEFEF;
+
+  --corEntrada: #34FD48;
+  --corSaida: #FD3434;
+
+  --corFonte: #FFFFFF;
+  --corFonteHover: #cecece;
+  --corTexto: #353535;
+  --corTextoHover: #535353;
+
+  --corSecundariaTabela: #e7e7e7;
+}

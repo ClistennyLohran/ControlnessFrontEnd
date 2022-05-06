@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  font-family: 'Fira Sans', sans-serif;
+
+  outline: none;
+  text-decoration: none;
+}
+ul, ol, li {
+  list-style: none;
+}

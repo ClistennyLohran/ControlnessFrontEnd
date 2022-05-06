@@ -1,0 +1,14 @@
+@import './colors.css';
+
+::-webkit-scrollbar { /* Largura do caminho por onde a scrollbar passa. */
+	width: 5px;
+}
+::-webkit-scrollbar-thumb { /* Propriedades serão aplicadas a scrollbar. */
+	background: var(--corSecundaria);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
